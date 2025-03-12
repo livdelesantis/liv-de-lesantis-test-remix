@@ -5,18 +5,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-  background: #cbf1e4;
+  background: #6b1a1a;
   background-image: linear-gradient(
     black,
     pink,
-    #cbf1e4
+   #6b1a1a
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Kalam", cursive;
+  font-family: "Crimson Text", serif;
   text-shadow: 1px 1px white;
   font-size: 30px;
   font-style: bold;
@@ -27,8 +27,8 @@ h2 {
 
 /* header for error code Retry */
 h3 {
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: black;
+  font: "PT Sans Narrow", sans-serif;
+  color: blue;
   text-align: center;
 }
 
@@ -51,12 +51,13 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/clouds.jpeg?v=1704340625786");
+  background-image: url("https://cdn.glitch.global/838256f6-8be1-4f7b-9ce8-adbf51db89d5/negley-stockman-UE43IEia4Yo-unsplash.jpg?v=1741744289046");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: "PT Serif", serif;
+  font-family: "Crimson Text", serif;
   font-size: 1.5em;
+  color: #ffffff ;
 }
 
 /* Style the card for phone error alerts (do not edit)*/
