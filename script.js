@@ -12,6 +12,7 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
+  "Cannot find device.",
   "Your device is not connected.",
   "Make sure '[—]' is turned on and in range.",
   "Now discoverable as '[—]'.",
