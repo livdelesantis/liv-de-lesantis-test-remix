@@ -34,9 +34,11 @@ h3 {
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
-  font-size: 22px;
-  font-style: bold;
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
   text-align: center;
 }
 
@@ -128,7 +130,7 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: #6e0a1f;
   color: white;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;

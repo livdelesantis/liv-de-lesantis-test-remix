@@ -58,22 +58,22 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "i am spiralling",
+  "sometimes i just want",
+  "my bedroom at dusk",
+  "take me back to yours",
+  "swipe left swipe right again",
+  "partake in antics",
+  "is this what i want",
+  "the bar is in hell",
+  "someone somewhere soon",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "the haus of craving pleasure",
+  "this fixation on drama",
+  "why would i disturb my peace?",
+  "reason, season or lifetime",
+  "he thinks god is a woman",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -106,26 +106,36 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "does the dog die red dog",
+  "how does it feel to be forgotten",
+  "where am i",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "when is it going to rain",
+  "do you have to say check in chess",
+  "meaning of 444",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "a feeling of very great happiness",
+  "x files funniest bloopers",
+  "best things about being a small business owner",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "can i change my business name?",
+  "sex and the city where to watch",
+  "is mercury in retrogradce",
+  "post-modernism define",
+  "glute exercises",
+  "entropy vs hypertrophy",
+  "queen elizabeth cutting cake with sword",
+  "nights frank ocean",
+  "period cramps help",
+  "ocd symptoms",
+  "love island uk body language psychology",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
-
-  "fridge magnets",
+  "rory gilmore reading list full alphabetised",
+  "lewis hamilton ferrari",
+  "new hunger games book review",
+  "yochi near me",
+  "french medieval chairs",
+  
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -157,15 +167,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "spaceships, figuring out my dating goals, pda, replying to messages, unapproachable, symbiotic".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "subliminal, supersonic, harlotry, green flags i look for, what's the catch, ethereal presence, wink wink nudge nudge, technological affair".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "dimly lit bar, glitching, metamorphosis of affection, yapping about nothing, situational desire, desolation in first looks, time zone dependency, compatibility ratings".split(
       ","
     );
 // set up the counter
